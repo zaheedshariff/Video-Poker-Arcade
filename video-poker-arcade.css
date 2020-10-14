@@ -1,0 +1,66 @@
+body {
+    background-image: url("images\videopokerbackground.jpg");
+    width: 100%;
+    height: 100%;
+}
+.page {
+    border-style: solid black 2px;
+    margin: auto;
+    height: auto;
+    width: 80%; 
+    position: relative;
+
+}
+.header {
+    background-image: url("images\pokerbanner.jpg");
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 75px;
+    border-style: solid;
+    border-color: red;
+}
+.payoutlist {
+    background-color: grey;
+    background-image: url("images\video-poker-pay-table-jacks-or-better.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid;
+    border-color: red;
+    height: 200px;
+}
+.deckarea {
+    background-color: greenyellow;
+    height:auto;
+    border-style: solid;
+    border-color: red;
+}
+.deck {
+    border-style: solid;
+    border-color: red;
+    height: 150px;
+}
+.credits {
+    background-color: green;
+    height: 50px;
+    border-style: solid;
+    border-color: red;
+}
+
+.bet {
+    background-color: orange;
+    height: 20%;
+    border-style: solid;
+    border-color: red;
+}
+.deal {
+    background-color: orangered;
+    height: 10%;
+    border-style: solid;
+    border-color: red;
+}
+
+#dealbutton {
+    margin: auto;   
+    width: 30%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Poker Arcade!</title>
+    <link rel="stylesheet" href="video-poker-arcade.css" type="text/css" />
+
+</head>
+<body>
+    <script src="video-poker-arcade.js" defer></script>
+    <div class='page'>
+        <div class='header'>Header</div>
+        
+        <div class='payoutlist'>Payouts</div>
+
+        <div class='deckarea'>Cards
+        <tr>
+            <td><img class='deck' id="firstCard" alt="card 1" src="card-deck-css\images\backs\blue.svg"></img></td>
+            <td><img class='deck' id="secondCard" alt="card 2" src="card-deck-css\images\backs\blue.svg"></img></td>
+            <td><img class='deck' id="thirdCard" alt="card 3" src="card-deck-css\images\backs\blue.svg"></img></td>
+            <td><img class='deck' id="fourthCard" alt="card 4" src="card-deck-css\images\backs\blue.svg"></img></td>
+            <td><img class='deck' id="fifthCard" alt="card 5" src="card-deck-css\images\backs\blue.svg"></img></td>
+        </tr>
+        </div>
+        <div class='credits'>Credits Remaining
+
+            <p><span id="credits_left">100</span> credits</p>
+
+        </div>
+
+        <div class='bet'>Current Bet
+            <button id="decrement" type="button">Lower Bet</button>
+
+            <input id="currentbet" type="number" name="current_bet" size="35" value="0">
+
+            <button id="increment" type="button">Increase bet</button>
+
+            <button id="max_bet" type="button">Max Bet</button>
+        </div>
+        <div class='deal'>Deal Button
+            <button id="dealbutton" type="button">Deal</button>
+        </div>
+    </div>
+
+</body>
+</html>
